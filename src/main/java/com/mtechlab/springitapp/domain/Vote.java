@@ -1,5 +1,7 @@
 package com.mtechlab.springitapp.domain;
 
+import lombok.NonNull;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,6 +13,7 @@ public class Vote {
     @Id
     @GeneratedValue
     private Long id;
+    @NonNull
     private  int vote;
 
     public Long getId() {
