@@ -1,4 +1,12 @@
 package com.mtechlab.springitapp.databaseloader;
 
-public class SomeotherRuner {
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SomeotherRuner implements CommandLineRunner {
+    @Override
+    public void run(String... args) throws Exception {
+//        System.out.println("Some other runner");
+    }
 }

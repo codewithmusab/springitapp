@@ -9,7 +9,7 @@ import java.util.Objects;
 
 @Entity
 
-public class Vote {
+public class Vote  extends  Auditable {
     @Id
     @GeneratedValue
     private Long id;
